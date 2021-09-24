@@ -4,7 +4,7 @@
 ###### In the my-app folder run command: 
 <li>npm install
 
-######And in the api folder run command: 
+###### And in the api folder run command: 
 <li>npm install
 
 ###### Start the app in the api folder with command:
