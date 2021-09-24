@@ -1,0 +1,73 @@
+.number {
+  color: rgb(0, 0, 0);
+  font-size: 75px;
+  text-align: center;
+}
+
+.create {
+    width: 100%;
+    background-color: lightgrey;
+    font-family: arial;
+    margin-left: 30px;
+    height: 80%;
+    padding: 5px 10px 10px 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+.display {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  width:50%;
+  display: table-cell;
+  text-align:left;
+  float: right;
+  overflow:visible;
+}
+.form-control{
+  width: 35%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display:flex;
+  border: 1px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  cursor:text;
+  background-color: #ffffff;
+}
+
+.form-control-d{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display:flex;
+  border: 1px solid rgb(10, 10, 10);
+  box-sizing: border-box;
+  cursor:text;
+  background-color: #ffffff;
+}
+
+.form-display{
+
+  background-color: #cacaca;
+  width: 600px; display: table-cell;
+}
+
+.library{
+  margin: 30px 10;
+  display:auto;
+  background-color: lightgrey;
+  
+}
+.library-h{
+  font-style: italic;
+  font-weight: bold;
+  margin: 30px 10;
+  display:auto;
+  background-color: lightgrey;
+
+}
+.grid {
+  table-layout: auto;
+  width: 100%; 
+}

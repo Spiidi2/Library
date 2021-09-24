@@ -1,0 +1,23 @@
+{
+  "name": "react-nodejs-example",
+  "version": "1.0.0",
+  "description": "example project react with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd ../ && cd my-app && npm start",
+    "server": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.4",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
